@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/miguelcnf/hmf/pkg/hmf"
-	"github.com/miguelcnf/hmf/pkg/input"
+	"github.com/miguelcnf/hmf/internal/hmf"
+	"github.com/miguelcnf/hmf/internal/input"
 )
 
 func main() {

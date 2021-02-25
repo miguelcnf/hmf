@@ -8,7 +8,7 @@ import (
 
 	ipfs "github.com/ipfs/go-ipfs-api"
 
-	"github.com/miguelcnf/hmf/pkg/security"
+	"github.com/miguelcnf/hmf/internal/security"
 )
 
 func StoreSecure(file string) (CID string, passphrase []byte, err error) {
